@@ -1,0 +1,26 @@
+html,
+body { 
+  background: #CCCCCC;
+  margin:0;
+}
+h1{
+  text-align:center;
+  padding:34px;
+}
+.parent {
+display: flex;
+align-items: center;
+justify-content: center;
+ height:100%;
+ margin-bottom:12px;
+}
+.child {
+background-color:white;
+width: 60%;
+padding: 0 35px;
+margin:auto;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.child p{
+  width:90%;
+}
